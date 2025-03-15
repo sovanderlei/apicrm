@@ -43,44 +43,51 @@ This project is a RESTful API built with FastAPI, featuring authentication using
 📜 README.md # Project documentation
 
 🚀 Getting Started
+
 1️⃣ Install Dependencies
-
+```
 pip install -r requirements.txt
-2️⃣ Run the API Locally
+```
 
+2️⃣ Run the API Locally
+```
 uvicorn app.main:app --reload
 API will be available at: http://127.0.0.1:8000/docs (Swagger UI).
+```
 
 🐳 Running with Docker
 Build and run the container:
-
+```
 docker-compose up --build
+```
 
 🔐 JWT Authentication
+
 🔹 Generate Token
 Send a POST request to:
 
 POST /token
+```
 {
 "username": "admin",
 "password": "password123"
 }
+```
 The response will contain an access token:
-
+```
 {
 "access_token": "your.jwt.token",
 "token_type": "bearer"
 }
+```
 
 🔹 Access Protected Routes
 Add the token to the request headers:
-
 makefile
-
 Authorization: Bearer your.jwt.token
 
 ## 📜 API Endpoints
-
+```
 | Method | Endpoint         | Description        | Auth Required |
 | ------ | ---------------- | ------------------ | ------------- |
 | GET    | `/companies`     | List companies     | ✅ Yes        |
@@ -89,9 +96,10 @@ Authorization: Bearer your.jwt.token
 | POST   | `/branches/`     | Create a branch    | ✅ Yes        |
 | POST   | `/users/`        | Register a user    | ❌ No         |
 | POST   | `/token`         | Get JWT token      | ❌ No         |
+```
 
 ## 🛠 Technologies Used
-
+```
 - **FastAPI** 🚀  
   A modern, fast (high-performance) web framework for building APIs with Python 3.6+.
 
@@ -115,6 +123,7 @@ Authorization: Bearer your.jwt.token
 
 - **Kubernetes** ☸  
   A platform for automating the deployment, scaling, and management of containerized applications.
+```
 
 ---
 
@@ -124,8 +133,10 @@ Authorization: Bearer your.jwt.token
 
 The CRM API is a Customer Relationship Management system designed to manage companies, branches, and related data. It provides endpoints to create, update, read, and delete records. The API is built using FastAPI and is designed to be run inside Docker containers, which are orchestrated using Docker Compose. It includes JWT-based authentication for secure access to the endpoints.
 
+
 ## API Endpoints
 
+```
 POST: http://localhost:8000/run_tests
 Run tests for the application.
 
@@ -134,17 +145,19 @@ Force the creation of database tables.
 
 POST: http://localhost:8000/companiescadtest
 Test API to create sample companies and branches.
+```
 
 ## Base URL
-
+```
 http://127.0.0.1:8000/
 The base URL of the FastAPI app running locally.
 
 http://localhost:8000/
 Alias for the above base URL.
+```
 
 ## API Documentation
-
+```
 Swagger UI Docs
 http://127.0.0.1:8000/docs
 http://localhost:8000/docs
@@ -172,17 +185,18 @@ pytest
 Forcefully Stop All Containers
 docker stop $(docker ps -q)
 Stop all running containers.
+```
 
 ## Stop and Rebuild Containers
-
+```
 docker-compose down --volumes
 docker-compose up --build -d
 Stop and rebuild the containers in detached mode.
-
----
+```
+ 
 
 ## Access MySQL Database in Docker
-
+ 
 ```
 docker exec -it apicrm_mysql_1 mysql -u root -p
 Access MySQL in the container. After entering your password, you can execute SQL commands like:
@@ -202,6 +216,7 @@ After logging into MySQL, run:
 USE crm_db;
 SHOW TABLES;
 ```
+ 
 
 ## Example - Register a Company
 
