@@ -4,6 +4,10 @@ This project is a RESTful API built with FastAPI, featuring authentication using
 
 ---
 
+# 📌 Content  
+
+---
+
 ## 🏗 Features
 
 ✅ FastAPI for high-performance APIs
@@ -14,21 +18,22 @@ This project is a RESTful API built with FastAPI, featuring authentication using
 ✅ Kubernetes (K8s) for orchestration
 
 # Project Structure
-
-📦 app
-┣ 📂 auth # Authentication logic (JWT)
-┃ ┗ 📜 auth_handler.py
-┣ 📂 controllers # Business logic controllers
-┣ 📂 database # Database connection
-┃ ┗ 📜 db.py
-┣ 📂 models # SQLAlchemy models
-┣ 📂 schemas # Pydantic schemas for data validation
-┣ 📂 services # Service layer for business logic
-┣ 📂 views # API route handlers
-┃ ┣ 📜 company_view.py
-┃ ┣ 📜 branch_view.py
-┃ ┗ 📜 user_view.py
-┗ 📜 main.py # FastAPI application entry point
+  ```
+- 📦 app
+- ┣ 📂 auth # Authentication logic (JWT)
+- ┃ ┗ 📜 auth_handler.py
+- ┣ 📂 controllers # Business logic controllers
+- ┣ 📂 database # Database connection
+- ┃ ┗ 📜 db.py
+- ┣ 📂 models # SQLAlchemy models
+- ┣ 📂 schemas # Pydantic schemas for data validation
+- ┣ 📂 services # Service layer for business logic
+- ┣ 📂 views # API route handlers
+- ┃ ┣ 📜 company_view.py
+- ┃ ┣ 📜 branch_view.py
+- ┃ ┗ 📜 user_view.py
+- ┗ 📜 main.py # FastAPI application entry point
+```
 
 📦 deployments # Kubernetes deployment configurations
 📦 tests # Unit and integration tests
