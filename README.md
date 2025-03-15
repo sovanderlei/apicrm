@@ -1,4 +1,4 @@
-# FastAPI API with JWT Authentication, Docker, and Kubernetes
+# PYTHON - FastAPI API with JWT Authentication, Docker, and Kubernetes
 
 This project is a RESTful API built with FastAPI, featuring authentication using JWT tokens, containerization with Docker, and orchestration using Kubernetes. The API is fully documented using Swagger (OpenAPI).
 
