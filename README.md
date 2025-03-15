@@ -35,12 +35,12 @@ This project is a RESTful API built with FastAPI, featuring authentication using
 - ┗ 📜 main.py # FastAPI application entry point
 ```
 
--📦 deployments # Kubernetes deployment configurations
--📦 tests # Unit and integration tests
--📜 Dockerfile # Docker build file
--📜 docker-compose.yml # Docker Compose configuration
--📜 requirements.txt # Python dependencies
--📜 README.md # Project documentation
+- 📦 deployments # Kubernetes deployment configurations 
+- 📦 tests # Unit and integration tests 
+- 📜 Dockerfile # Docker build file 
+- 📜 docker-compose.yml # Docker Compose configuration 
+- 📜 requirements.txt # Python dependencies 
+- 📜 README.md # Project documentation 
 
 🚀 Getting Started
 
