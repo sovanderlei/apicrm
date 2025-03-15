@@ -99,7 +99,7 @@ Authorization: Bearer your.jwt.token
 ```
 
 ## 🛠 Technologies Used
-```
+ 
 - **FastAPI** 🚀  
   A modern, fast (high-performance) web framework for building APIs with Python 3.6+.
 
@@ -123,7 +123,7 @@ Authorization: Bearer your.jwt.token
 
 - **Kubernetes** ☸  
   A platform for automating the deployment, scaling, and management of containerized applications.
-```
+ 
 
 ---
 
@@ -162,8 +162,8 @@ Alias for the above base URL.
 ## API Documentation
 ```
 Swagger UI Docs
-**http://127.0.0.1:8000/docs**
-**http://localhost:8000/docs**
+http://127.0.0.1:8000/docs
+http://localhost:8000/docs
 Access the auto-generated Swagger UI documentation for the API.
 Accessing Resources
 Get Company by ID
