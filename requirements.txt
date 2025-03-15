@@ -8,3 +8,5 @@ cryptography
 fastapi[all]
 python-jose[cryptography]
 passlib[bcrypt]
+pandas
+xlsxwriter

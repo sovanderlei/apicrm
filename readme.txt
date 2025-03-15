@@ -78,6 +78,19 @@ Faça uma requisição POST para /users/ com:
 
 
 
+http://localhost:8000/docs
+http://localhost:8000/general/hello
+http://localhost:8000/general/export-sales
+
+
+
+
+
+
+
+
+
+
 
 
 
