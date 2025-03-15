@@ -10,12 +10,12 @@ This project is a RESTful API built with FastAPI, featuring authentication using
 
 ## 🏗 Features
 
-✅ FastAPI for high-performance APIs 
-✅ JWT authentication for secure access 
-✅ Swagger UI for API documentation
-✅ MySQL as the database
-✅ Docker & Docker Compose for containerized deployment
-✅ Kubernetes (K8s) for orchestration
+- ✅ FastAPI for high-performance APIs 
+- ✅ JWT authentication for secure access 
+- ✅ Swagger UI for API documentation
+- ✅ MySQL as the database
+- ✅ Docker & Docker Compose for containerized deployment
+- ✅ Kubernetes (K8s) for orchestration
 
 # Project Structure
   ```
