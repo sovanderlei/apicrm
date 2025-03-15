@@ -271,6 +271,14 @@ Then rebuild the containers:
 docker-compose up --build
 ```
 
+---
+
+## 📜  Excel with pie chart model - export example
+http://localhost:8000/general/export-sales
+
+![Texto alternativo](https://github.com/sovanderlei/apicrm/blob/main/imagem/excel_exemple.png)
+
+---
 
 ### See images of the project below
 - **Image in general**:
