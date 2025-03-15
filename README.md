@@ -35,12 +35,12 @@ This project is a RESTful API built with FastAPI, featuring authentication using
 - ┗ 📜 main.py # FastAPI application entry point
 ```
 
-📦 deployments # Kubernetes deployment configurations
-📦 tests # Unit and integration tests
-📜 Dockerfile # Docker build file
-📜 docker-compose.yml # Docker Compose configuration
-📜 requirements.txt # Python dependencies
-📜 README.md # Project documentation
+-📦 deployments # Kubernetes deployment configurations
+-📦 tests # Unit and integration tests
+-📜 Dockerfile # Docker build file
+-📜 docker-compose.yml # Docker Compose configuration
+-📜 requirements.txt # Python dependencies
+-📜 README.md # Project documentation
 
 🚀 Getting Started
 
@@ -131,7 +131,10 @@ Authorization: Bearer your.jwt.token
 
 # CRM API - Customer Relationship Management
 
-The CRM API is a Customer Relationship Management system designed to manage companies, branches, and related data. It provides endpoints to create, update, read, and delete records. The API is built using FastAPI and is designed to be run inside Docker containers, which are orchestrated using Docker Compose. It includes JWT-based authentication for secure access to the endpoints.
+The CRM API is a Customer Relationship Management system designed to manage companies, branches, and related data. 
+It provides endpoints to create, update, read, and delete records. 
+The API is built using FastAPI and is designed to be run inside Docker containers, which are orchestrated using Docker Compose. 
+It includes JWT-based authentication for secure access to the endpoints.
 
 
 ## API Endpoints
@@ -159,8 +162,8 @@ Alias for the above base URL.
 ## API Documentation
 ```
 Swagger UI Docs
-http://127.0.0.1:8000/docs
-http://localhost:8000/docs
+**http://127.0.0.1:8000/docs**
+**http://localhost:8000/docs**
 Access the auto-generated Swagger UI documentation for the API.
 Accessing Resources
 Get Company by ID
@@ -222,7 +225,7 @@ SHOW TABLES;
 
 To register a company, send a POST request to the /companies endpoint:
 
-POST: http://localhost:8000/companies
+POST: **http://localhost:8000/companies**
 
 ## Request body:
 
