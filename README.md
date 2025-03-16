@@ -274,6 +274,9 @@ docker-compose up --build
 ---
 
 ## 📜  Excel with pie chart model - export example
+
+Below is an example of an algorithm that exports data to an Excel file and creates an Excel graph and formats the data table.
+
 http://localhost:8000/general/export-sales
 
 ![Texto alternativo](https://github.com/sovanderlei/apicrm/blob/main/imagem/excel_exemple.png)
